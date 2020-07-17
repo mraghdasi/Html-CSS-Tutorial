@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 26</title>
+    <style>
+        .title {
+            background-color: gray;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        div {
+            margin: 15px;
+        }
+
+        .course-information {
+            background-color: bisque;
+            border: 3px solid blue;
+        }
+
+        .course-information .course-information-title {
+            text-align: center;
+            color: red;
+        }
+
+        .personal-information {
+            width: 50%;
+        }
+
+        .personal-information .personal-information-title {
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="title">Welcome To ForoLearn Academy</h1>
+        <h3>Session 26</h3>
+        <mark>Contact Us :</mark> <a href="https://t.me/Forolearn_bot" target="_blank">@ForoLearn_bot</a>
+    </div>
+    <hr>
+
+    <p>
+        <strong>
+            <a href="https://krypted.com/utilities/html-encoding-reference/" target="_blank">ASCII</a>
+        </strong>
+    </p>
+
+    <form action="#" method="get">
+
+        <fieldset class="course-information">
+            <legend class="course-information-title">اطلاعات ثبت نام دوره آموزشی</legend>
+
+            <fieldset class="personal-information">
+
+                <legend class="personal-information-title">اطلاعات شخصی</legend>
+                <div>
+                    <label for="fname">Name :</label>
+                    <input type="text" name="firstName" id="fname" required>
+                    Last Name : <input type="text" name="LsatName" placeholder="Your Last Name..." required>
+                </div>
+            </fieldset>
+
+
+            <fieldset class="personal-information">
+
+                <legend class="personal-information-title">اطلاعات شخصی</legend>
+                <div>
+                    <label for="fname">Name :</label>
+                    <input type="text" name="firstName" id="fname" autofocus autocomplete="off" value="123" readonly>
+                    Last Name : <input type="text" name="LsatName" autocomplete="off" disabled>
+                </div>
+            </fieldset>
+
+            <fieldset class="personal-information">
+
+                <legend class="personal-information-title">اطلاعات شخصی</legend>
+                <div>
+                    <label for="fname">Name :</label>
+                    <input type="text" name="firstName" id="fname" size="50">
+                    Last Name : <input type="text" name="LsatName" style="width: 150px;" maxlength="6">
+                </div>
+            </fieldset>
+
+            <fieldset class="personal-information">
+
+                <legend class="personal-information-title">اطلاعات شخصی</legend>
+                <div>
+                    date : <input type="date" max="2050-01-01" min="2000-01-01">
+                    number : <input type="number" min="5" max="10">
+                </div>
+            </fieldset>
+
+            <div>
+                cars
+                <select name="cars">
+                    <option value="vo">volvo</option>
+                    <option value="fi">Fiat</option>
+                    <option value="bm">BMW</option>
+                    <option value="sa">Saipa</option>
+                </select>
+
+
+                <input name="city" list="ci">
+
+                <datalist id="ci">
+                    <option value="tehran">
+                    <option value="tabriz">
+                    <option value="ormie">
+                    <option value="birjand">
+                    <option value="semnan">
+                    <option value="sari">
+                    <option value="ahvaz">
+                    <option value="shiraz">
+                    <option value="esfehan">
+                    <option value="yazd">
+                </datalist>
+            </div>
+
+            <div>
+                address :
+                <textarea name="address" rows="4" cols="40"></textarea>
+            </div>
+
+            <div>
+                3 + 4 = <output></output>
+            </div>
+
+            <div>
+                Eye color : <input type="color" name="EyeColor">
+                Email : <input type="email" name="Email">
+            </div>
+
+            <div>
+                Password : <input type="password" name="pass">
+                post code : <input type="number" name="postCode">
+            </div>
+
+            <div>
+                file : <input type="file" name="file" multiple>
+                <input type="hidden" name="data" value="fgne54y45u76r">
+            </div>
+
+            <div>
+                search : <input type="search" name="search">
+                controller: <input type="range" name="controller" min="10" max="50" step="10">
+            </div>
+
+            <div>
+                <input type="checkbox" name="vehicle1" value="bike"> I have a Bike
+                <br>
+                <input type="checkbox" name="vehicle2" value="car"> I have a Car
+            </div>
+
+            <div>
+                <p>Gender</p>
+                <input type="radio" name="gender" value="female" id="female"> <label for="female">Female</label>
+                <br>
+                <input type="radio" name="gender" value="male"> male
+            </div>
+
+            <div>
+                <p>input type image</p>
+                <input type="submit" value="Ok">
+                <input type="reset" value="reset">
+                <input type="button" value="button">
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

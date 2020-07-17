@@ -1,0 +1,20 @@
+
+    #title1 {
+            color: blue;
+        }
+
+        #title2 {
+            background-color: aquamarine;
+        }
+
+        #id01 {
+            border: 1px solid red;
+        }
+
+        .head {
+            color: red;
+        }
+
+        .head01 {
+            border: 3px solid orange;
+        }

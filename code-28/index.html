@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 28</title>
+    <style>
+        .title {
+            background-color: gray;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        div {
+            margin: 15px;
+        }
+
+        .course-information {
+            background-color: bisque;
+            border: 3px solid blue;
+            width: 60%;
+        }
+
+        .course-information .course-information-title {
+            text-align: center;
+            color: red;
+        }
+
+        input {
+            outline: none;
+        }
+
+        .validate:valid {
+            border: 1px solid green;
+        }
+
+        .validate:invalid {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="title">Welcome To ForoLearn Academy</h1>
+        <h3>Session 28</h3>
+        <mark>Contact Us :</mark> <a href="https://t.me/Forolearn_bot" target="_blank">@ForoLearn_bot</a>
+    </div>
+    <hr>
+
+    <p>
+        <strong>
+            <a href="https://krypted.com/utilities/html-encoding-reference/" target="_blank">ASCII</a>
+        </strong>
+    </p>
+
+    <p>
+        <strong>
+            <a href="http://html5pattern.com/">Pattern Html 5</a>
+        </strong>
+    </p>
+
+    <form action="index.php" method="get" target="_blank" enctype="multipart/form-data">
+
+        <fieldset class="course-information">
+            <legend class="course-information-title">اطلاعات ثبت نام دوره آموزشی</legend>
+
+            <div>
+                <label for="fname">Name :</label>
+                <input type="text" pattern="[a-z]{10,50}" name="firstName" class="validate" id="fname">
+                Last Name : <input type="text" pattern=".{8,18}" name="LsatName" class="validate"
+                    placeholder="Your Last Name...">
+            </div>
+
+            <div>
+                <label for="email">email :</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+
+            <div>
+                file : <input type="file" name="file" multiple>
+                Telephone :<input type="tel" name="data" pattern="[1-9]{3}[\-][1-9]{5}"
+                    title="فرمت را رعایت کنید : xxx-xxxxx" placeholder="xxx-xxxxx" class="validate">
+            </div>
+
+            <div>
+                <input type="submit" value="ok">
+                <input type="submit" formaction="index2.php" value="submit to another page">
+            </div>
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>

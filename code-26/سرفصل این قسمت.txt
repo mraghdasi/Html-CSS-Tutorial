@@ -1,0 +1,15 @@
+
+attribute input Tag
+
+placeholder
+required
+autocomplete
+autofoucus
+multiple
+readonly
+disable
+size
+maxlength
+max
+min
+step
