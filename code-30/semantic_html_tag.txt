@@ -1,0 +1,40 @@
+seo
+
+<main>
+
+</main>
+----------------
+<header>
+
+</header>
+---------------
+<nav>
+
+</nav>
+---------------
+<section>
+
+</section>
+---------------
+<article>
+
+</article>
+--------------
+<aside>
+
+</aside>
+--------------
+<footer>
+
+</footer>
+--------------
+
+layout website :
+
+table tag = 
+
+float property : css
+
+flex box : css3
+
+use framework : bootstrap - w3.css
